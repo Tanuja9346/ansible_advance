@@ -1,0 +1,5 @@
+- name: DEMO is on ansible configuration
+  hosts: centos
+  taks:
+  - name: print a message
+    ansible.builtin.command: echo hello from ansible server > /tmp/hello.text
